@@ -3,9 +3,17 @@ body {
 }
 
 header {
-    background-color: #378fdb;
+    background-color: #ffffff;
 }
 
 .special-things { 
     background-color: bisque;
+    color: cadetblue;
+    width: 100px;
+    height: 60px
+}
+
+
+article {
+    background-color: darkblue;
 }
