@@ -10,10 +10,16 @@ header {
     background-color: bisque;
     color: cadetblue;
     width: 100px;
-    height: 60px
+    padding: 20px;
+    margin: auto;
 }
 
 
 article {
-    background-color: darkblue;
+    background-color: #00008b;
 }
+
+.main-picture {
+    width: 600px;
+}
+
