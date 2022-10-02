@@ -1,5 +1,5 @@
 body {
-    background-image: url("../Assets/2.png");
+    background-color: #ffffff;
 }
 
 header {
@@ -20,6 +20,6 @@ article {
 }
 
 .main-picture {
-    width: 600px;
+    width: 600px;height: 500px;
 }
 
