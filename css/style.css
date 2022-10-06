@@ -11,9 +11,12 @@ header {
     text-align: center;
 }
 
-.nav-bar {
-    overflow: hidden; 
+nav ul {
     background-color: #ffbd59;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
 
 h1 {
@@ -69,6 +72,17 @@ h2 {
     margin: 30px auto 30px auto;
     background-color: #5e17eb;
     border: 5px solid #ffbd59
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;  
+}
+
+.flex-item {
+    height: 100px;
+    flex: 1;
+    background-color: #5e17eb;
 }
 
 .footer p {
