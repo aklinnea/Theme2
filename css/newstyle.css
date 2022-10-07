@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: #ffffff;
+}
+
+header {
+    background-color: #8D3963;
+    padding: 10px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin-inline-end: 40px;
+    gap: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #3E9493;
+    padding: 10px;
+}
+
+.footer-text {
+    text-align: center;
+}
