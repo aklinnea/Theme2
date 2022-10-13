@@ -41,7 +41,6 @@ ul {
     gap: 1rem; 
 }
 
-
 img {
     max-width: 100%;
     height: auto;
@@ -75,10 +74,9 @@ img {
     display: inline-block;
 }
 
-@media screen and (max-width: 900px) {
-    .flex-container 
-    }
-
+div p {
+    
+}
 
 
 footer {
@@ -86,6 +84,6 @@ footer {
     color: black;
     text-align: center;
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
