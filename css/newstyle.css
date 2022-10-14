@@ -52,6 +52,7 @@ img {
     flex-wrap: wrap;
     justify-content:space-around;
     gap: 1rem;
+    margin-left: 1rem;
 }
 
 .flex-item {
@@ -73,11 +74,6 @@ img {
     width: 33%;
     display: inline-block;
 }
-
-div p {
-    
-}
-
 
 footer {
     background-color: #CF462C;
