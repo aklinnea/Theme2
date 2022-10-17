@@ -1,124 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300&display=swap');
 
-body {
-    background-color: black;
-    font-family: 'Gemunu Libre', sans-serif;
+
+html {
+    font-size: 16px;
 }
 
-header {
-    background-color: #5e17eb;
-    padding: 10px;
-}
-
-nav ul {
-    background-color: #ffbd59;
-    padding: 20px;
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
-
-nav ul li {
-    color: chartreuse;
-    transition-property: all;
-}
-
-nav ul li:hover {
-    color: #5e17eb;
-}
-
-h1 {
-    font-size: 50px;
-    margin-left: 10px;
-    color: #ffbd59;
-}
-
-.first-box {
-    background-color: #ffffff;
-    border: 5px solid #5e17eb;
-    border-style: double;
-    width:1000px;
-    height: 250px;
-    margin: auto; 
-}
-
-.first-box p {
-
-    color: #ffbd59;
-    padding-left: 20px; 
-}
-
-h2 {
-    color: #5e17eb; 
-    margin-top: 100px;
-    margin-left: 50px; 
-}
-
-.free-paragraph {
-    color: #5e17eb;
-    margin-left: 50px; 
-}
-
-.second-box {
-    background-color: #ffffff;
-    border: 5px solid #5e17eb;
-    border-style: double;
-    width:1000px;
-    height: 250px;
-    margin: auto; 
-}
-
-.second-box p {
-    color: #ffbd59;
-    padding-left: 20px; 
-}
-
-.box-model {
-    width: 200px;
-    height: 200px;
-    padding-left: 20px;
-    margin: 30px auto 30px auto;
-    background-color: #5e17eb;
-    border: 5px solid #ffbd59
-    transform: translate(-600px);
-}
-
-.box-model button {
-    background-color: #ffbd59;
-}
-
-.box-model button:hover {
-    background-color: coral;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding 0 2rem;
-}
-
-.column {
-    flex: 10%;
-    max-width: 10%;
-    padding 0 2rem;
-}
-
-.column img {
-    margin-top: 1rem;
-    vertical-align: middle;
-
-.footer p {
-    background-color: #5e17eb;
-    padding: 20px;
-    color: #ffbd59;
-}
-
-.footer-nav {
-    display: block;
-}
-
-@media and (min-width:700px){    
-}
-    .footer-nav {
-        display: none;
+@media screen and (min-width:700px;) {
+    html { font-size: 20px;
     }
+}
+
+.body {
+    background-image: url(../Assets/themilkyway.jpg);
+}
+
