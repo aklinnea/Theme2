@@ -92,6 +92,16 @@ header nav ul li:hover {
     border: solid #62346A;
 }
 
+.box-in-banner p {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+    .box-in-banner p {
+        font-size: 1.2rem;
+    }
+}
+
 
 .article {
         background-color: black;
