@@ -4,17 +4,20 @@ html {
     font-size: 16px;
 }
 
+
 @media screen and (min-width: 700px) {
     html {
         font-size: 20px; 
     } 
 }
 
+
 body {
     font-family: 'Gemunu Libre', sans-serif;
     background-color: black;
     color: #E49F97;
 }
+
 
 header {
     background-color: #62346A;
@@ -35,13 +38,16 @@ ul {
     gap: 1rem; 
 }
 
+
 header nav ul li {
     color: #E49F97;
+    font-weight: bold;
     transition-property: all;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0.2s;
 }
+
 
 header nav ul li:hover {
     color: #CF462C;
@@ -53,6 +59,7 @@ header nav ul li:hover {
         display: none;
     }
 }
+
 
 @media screen and (max-width: 500px) {
     header ul {
@@ -72,31 +79,19 @@ header nav ul li:hover {
 }
 
 
-
 .box-in-banner {
     background-color: black;
-    width: 80%;
+    width:fit-content;
     position:absolute;
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 7rem;
+    top: 10rem;
     padding: 2rem;
     text-align: center;
     border: solid #62346A;
 }
 
-
-.box-in-banner button {
-    font-family: inherit;
-    font-size: 1.2rem;
-    background-color: #CF462C;
-    color: #000000;
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;
-    border: none;
-    margin-top: 1.5rem;
-}
 
 .article {
         background-color: black;
@@ -107,6 +102,7 @@ header nav ul li:hover {
         margin-bottom: 4rem;       
 }
 
+
 @media screen and (min-width: 700px) {
     article {
         width: 80%;
@@ -114,9 +110,9 @@ header nav ul li:hover {
         left: 0;
         right: 0;
         text-align: center;
-    }
-    
+    }  
 }
+
 
 .flex-container {
     display: flex;
@@ -126,18 +122,57 @@ header nav ul li:hover {
     gap: 3rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 4rem;
 }
+
 
 .flex-item img {
     width: 100%;
     height: auto;
 }
 
+
+.flex-item p {
+    text-align: center;
+}
+
+.subscribe {
+    border: solid #62346A;
+    width: fit-content;
+    padding: 2rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.subscribe button {
+    font-family: inherit;
+    font-weight: bold;
+    background-color: #62346A;
+    color: #E49F97;
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1.5rem;
+}
+
+.subscribe button:hover {
+    color: #CF462C;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+
 footer {
     background-color: #CF462C;
     color: black;
+    font-weight: bold;
     text-align: center;
     padding: 1rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
+
+
 
