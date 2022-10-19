@@ -54,14 +54,14 @@ header nav ul li:hover {
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     .dot-menu {
         display: none;
     }
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     header ul {
         display: none;
     }
@@ -93,12 +93,12 @@ header nav ul li:hover {
 }
 
 .box-in-banner p {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 @media screen and (min-width: 700px) {
     .box-in-banner p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
