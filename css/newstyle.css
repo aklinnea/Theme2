@@ -21,6 +21,7 @@ body {
 
 header {
     background-color: #62346A;
+    background-image: linear-gradient(#62346A, #CF462C);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,19 +43,16 @@ ul {
 header nav ul li {
     color: #E49F97;
     font-weight: bold;
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0.2s;
 }
 
 
 header nav ul li:hover {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
     color: #CF462C;
-}
-
-.dot-menu {
-    display: block;
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 700px) {
@@ -191,6 +189,7 @@ header nav ul li:hover {
 
 .subscribe button:hover {
     color: #CF462C;
+    text-decoration: underline;
     transition-property: all;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -200,6 +199,7 @@ header nav ul li:hover {
 
 footer {
     background-color: #CF462C;
+    background-image: linear-gradient(#CF462C, #62346A);
     color: black;
     font-weight: bold;
     text-align: center;
