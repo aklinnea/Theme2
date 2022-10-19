@@ -21,7 +21,7 @@ body {
 
 header {
     background-color: #62346A;
-    background-image: linear-gradient(#62346A, #CF462C);
+    background-image: linear-gradient(#CF462C, #62346A);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -199,13 +199,14 @@ header nav ul li:hover {
 
 footer {
     background-color: #CF462C;
-    background-image: linear-gradient(#CF462C, #62346A);
+    background-image: linear-gradient(#62346A,#CF462C);
     color: black;
     font-weight: bold;
     text-align: center;
     padding: 1rem;
     margin-top: 4rem;
 }
+
 
 
 
