@@ -53,6 +53,9 @@ header nav ul li:hover {
     color: #CF462C;
 }
 
+.dot-menu {
+    display: block;
+}
 
 @media screen and (min-width: 700px) {
     .dot-menu {
