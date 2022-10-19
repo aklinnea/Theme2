@@ -4,8 +4,9 @@ html {
     font-size: 16px;
 }
 
+
 /*font-size for desktop*/
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1100px) {
     html {
         font-size: 20px; 
     } 
@@ -19,6 +20,7 @@ body {
 }
 
 
+/*header*/
 header {
     background-color: #62346A;
     background-image: linear-gradient(#CF462C, #62346A);
@@ -55,24 +57,27 @@ header nav ul li:hover {
     text-decoration: underline;
 }
 
+
 .dot-menu {
     display: block;
 }
 
-@media screen and (min-width: 700px) {
+
+@media screen and (min-width: 1100px) {
     .dot-menu {
         display: none;
     }
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1100px) {
     header ul {
         display: none;
     }
 }
 
 
+/*banner*/
 .banner {
     background-image: url(../Assets/themilkyway.jpg);
     width: 100%;
@@ -97,42 +102,35 @@ header nav ul li:hover {
     border: solid #62346A;
 }
 
+
 .box-in-banner p {
     font-size: 1rem;
 }
 
-@media screen and (min-width: 700px) {
+
+@media screen and (min-width: 1100px) {
     .box-in-banner p {
         font-size: 1rem;
     }
 }
 
 
+/*article*/
 .article {
         background-color: black;
         width: 100%;
-        /*border: 0.5rem solid #62346A;*/
-        padding: 3rem;
+        border: solid #62346A;
+        padding: 2rem;
         margin: auto;
-        margin-bottom: 4rem;       
+        margin-bottom: 4rem;  
+        text-align: center;     
 }
 
 
-@media screen and (min-width: 700px) {
-    article {
-        width: 80%;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }  
-}
-
-
+/*flex-container with images*/
 .flex-container {
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
     justify-content: space-around;
     gap: 3rem;
     margin-left: 1rem;
@@ -151,16 +149,20 @@ header nav ul li:hover {
     text-align: center;
 }
 
+
 .flex-item {
     font-size: 1rem;
 }
 
-@media screen and (min-width: 700px;) {
+
+@media screen and (min-width: 1100px;) {
     .flex-item {
         font-size: 1rem;
     } 
 }
 
+
+/*subscribe box with button*/
 .subscribe {
     border: solid #62346A;
     width: fit-content;
@@ -169,6 +171,7 @@ header nav ul li:hover {
     left: 0;
     right: 0;
 }
+
 
 .subscribe button {
     font-family: inherit;
@@ -181,15 +184,18 @@ header nav ul li:hover {
     margin-top: 1.5rem;
 }
 
+
 .subscribe button {
     font-size: 1rem;
 }
 
-@media screen and (min-width: 700px) {
+
+@media screen and (min-width: 1100px) {
     .subscribe button {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
+
 
 .subscribe button:hover {
     color: #CF462C;
@@ -201,6 +207,7 @@ header nav ul li:hover {
 }
 
 
+/*footer*/
 footer {
     background-color: #CF462C;
     background-image: linear-gradient(#62346A,#CF462C);
