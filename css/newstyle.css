@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300&display=swap');
-
+/*font-size for mobile*/
 html {
     font-size: 16px;
 }
 
-
+/*font-size for desktop*/
 @media screen and (min-width: 700px) {
     html {
         font-size: 20px; 
@@ -146,6 +146,16 @@ header nav ul li:hover {
     text-align: center;
 }
 
+.flex-item {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 700px;) {
+    .flex-item {
+        font-size: 1rem;
+    } 
+}
+
 .subscribe {
     border: solid #62346A;
     width: fit-content;
@@ -164,6 +174,16 @@ header nav ul li:hover {
     border-radius: 1rem;
     border: none;
     margin-top: 1.5rem;
+}
+
+.subscribe button {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+    .subscribe button {
+        font-size: 1rem;
+    }
 }
 
 .subscribe button:hover {
