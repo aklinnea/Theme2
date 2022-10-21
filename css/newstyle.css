@@ -132,7 +132,7 @@ header nav ul li:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 3rem;
+    gap: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 4rem;
@@ -150,7 +150,7 @@ header nav ul li:hover {
 }
 
 
-.flex-item {
+.flex-item p {
     font-size: 1.2rem;
 }
 
