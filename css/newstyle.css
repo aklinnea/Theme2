@@ -135,7 +135,7 @@ header nav ul li:hover {
     gap: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -144,14 +144,24 @@ header nav ul li:hover {
     height: auto;
 }
 
+.flex-texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+}
 
+/*
 .flex-item p {
     text-align: center;
 }
 
 
 .flex-item p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 
@@ -160,7 +170,7 @@ header nav ul li:hover {
         font-size: 1.2rem;
     } 
 }
-
+*/
 
 /*subscribe box with button*/
 .subscribe {
@@ -186,13 +196,13 @@ header nav ul li:hover {
 
 
 .subscribe button {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 
 @media screen and (min-width: 1100px) {
     .subscribe button {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
@@ -213,6 +223,7 @@ footer {
     background-image: linear-gradient(#62346A,#CF462C);
     color: black;
     font-weight: bold;
+    font-size: 1.2rem;
     margin-top: 4rem;
     display: flex;
     flex-direction: row;
@@ -226,6 +237,7 @@ footer {
 footer nav ul li {
     color: #E49F97;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 footer nav ul li {
