@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1100px) {
+    html {
+        font-size: 20px; 
+    } 
+}
+
+body {
+    font-family: 'Gemunu Libre', sans-serif;
+    background-color: black;
+    color: #E49F97;
+}
+
+/*header*/
+header {
+    background-color: #62346A;
+    background-image: linear-gradient(#CF462C, #62346A);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; 
+}
+
+header nav ul li {
+    color: #E49F97;
+    font-weight: bold;
+}
+
+header nav ul li:hover {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+    color: #CF462C;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1100px) {
+    header ul {
+        display: none;
+    }
+}
+
+/*banner*/
+.banner {
+    background-image: url(../Assets/themilkyway.jpg);
+    width: 100%;
+    height: 30rem;
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5rem;
+}
+
+.box-in-banner {
+    background-color: black;
+    width:fit-content;
+    position:absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 10rem;
+    padding: 2rem;
+    text-align: center;
+    border: solid #62346A;
+}
+
+.box-in-banner h1 {
+    font-size: 2.5rem;
+}
+
+
+.box-in-banner p {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 1100px) {
+    .box-in-banner p {
+        font-size: 20px;
+    }
+}
+
+/*article*/
+.article {
+        background-color: black;
+        width: 100%;
+        border: solid #62346A;
+        padding: 2rem;
+        margin: auto;
+        margin-bottom: 4rem;  
+        text-align: center;     
+}
+
+.article h2 {
+    font-size: 2rem;
+}
+
+.article p {
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1100px) {
+    .article p {
+        font-size: 20px;
+    }
+}
+
+/*flex-container with images*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.flex-item img {
+    width: 100%;
+    height: auto;
+}
+
+/*flex-container with text*/
+.flex-texts {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 1.8rem;
+    margin-bottom: 4rem;
+}
+
+.flex-p1 {
+    width: 20rem;
+    background-color: #62346A;
+    text-align:center;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.flex-p2 {
+    width: 20rem;
+    background-color: #62346A;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.flex-p3 {
+    width: 20rem;
+    background-color: #62346A;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+@media screen and (min-width:1100) {
+    .flex-p1 {
+        font-size: 20px;
+    }
+    
+}
+
+/*subscribe box with button*/
+.subscribe {
+    border: solid #62346A;
+    width: fit-content;
+    padding: 2rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.subscribe {
+    font-size: 1rem;
+}
+
+.subscribe button {
+    font-family: inherit;
+    font-weight: bold;
+    background-color: #62346A;
+    color: #E49F97;
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1.5rem;
+}
+
+.subscribe button {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1100px) {
+    .subscribe button {
+        font-size: 20px;
+    }
+}
+
+.subscribe button:hover {
+    color: #CF462C;
+    text-decoration: underline;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+/*footer*/
+footer {
+    background-color: #CF462C;
+    background-image: linear-gradient(#62346A,#CF462C);
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+footer nav ul li {
+    color: #E49F97;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+footer nav ul li {
+    display: block;
+}
+
+@media screen and (min-width: 1100px) {
+    footer nav ul li {
+        display: none;
+    }
+}
+
+
+
+
